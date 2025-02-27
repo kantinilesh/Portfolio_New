@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)', 'sans-serif'], // Fallback to sans-serif
+      },
       backgroundImage: {
         'cloud-background': "url('/images/background-clouds.jpg')",
       },

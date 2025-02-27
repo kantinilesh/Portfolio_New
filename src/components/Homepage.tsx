@@ -1,3 +1,5 @@
+'use client'; // Mark this as a Client Component
+
 import { motion } from 'framer-motion';
 
 const Homepage = () => {
@@ -19,12 +21,12 @@ const Homepage = () => {
 
       {/* Text and tagline with animation */}
       <motion.div
-        className="relative z-10 text-center"
+        className="relative z-10 text-center font-montserrat"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <h1 className="text-4xl font-bold mb-4 text-gray-300 font-serif">Aamir Shaikh</h1>
+        <h1 className="text-4xl font-bold mb-4 text-gray-300">Aamir Shaikh</h1>
         <div className="mb-4">
           <span className="text-green-500 text-xl mx-2">Designer</span>
           <span className="text-green-500 text-xl mx-2">Developer</span>
