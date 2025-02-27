@@ -26,13 +26,13 @@ const Homepage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <h1 className="text-4xl font-bold mb-4 text-gray-300">Aamir Shaikh</h1>
+        <h1 className="text-4xl font-bold mb-4 text-gray-300">Nilesh Kanti</h1>
         <div className="mb-4">
           <span className="text-green-500 text-xl mx-2">Designer</span>
           <span className="text-green-500 text-xl mx-2">Developer</span>
           <span className="text-green-500 text-xl mx-2">Creative</span>
         </div>
-        <p className="text-xl text-gray-400">Crafting digital interfaces</p>
+        <p className="text-xl text-gray-400">Development Design Programming</p>
       </motion.div>
 
       {/* Navigation icons */}
